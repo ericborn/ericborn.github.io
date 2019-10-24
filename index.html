@@ -9,7 +9,9 @@
 		<link rel="manifest" href="favicons/manifest.json">
 		<link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#5bbad5">
 		<meta name="theme-color" content="#ffffff">
-
+		
+		<!--
+		for setting up google tag manager and analytics, currently set to template authors account
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-110543961-1"></script>
 		<script>
 			window.dataLayer = window.dataLayer || [];
@@ -17,15 +19,16 @@
 		  	gtag('js', new Date());
 		  	gtag('config', 'UA-110543961-1');
 		</script>
+		-->
 
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-		<meta name="description" content="Greg (Grzegorz) Surma - Portfolio; Machine Learning, Computer Vision, Self-Driving Cars, iOS, macOS, Apps, Games, AI, Cryptography, Utilities">
-		<meta name="keywords" content="machine learning, deep learning, tensorflow, keras, computer vision, iOS, macOS, app, game, apple, ai, native, freelance, software, dev, developer, iphone, ipad, programming, computers, swift, objective-c, python, cryptography, artificial intelligence, computer, it, internet, engineering, development, self-driving cars">
-		<meta name="author" content="Greg (Grzegorz) Surma">
+		<meta name="description" content="Eric Born - Portfolio; Data Science, Machine Learning, Bots, AI, Utilities">
+		<meta name="keywords" content="machine learning, deep learning, tensorflow, keras, bot, freelance, software, dev, developer, programming, computers, python, r, artificial intelligence, computer, it, internet, engineering, analysis">
+		<meta name="author" content="Eric Born">
 
-		<title>Greg Surma - Portfolio</title>
+		<title>Eric Born - Portfolio</title>
 
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<link href="css/styles.css" rel="stylesheet">
@@ -49,7 +52,7 @@
 				  			<a class="nav-link" href="/">Portfolio</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" target="_blank" rel="noopener noreferrer" href="https://medium.com/@gsurma">Blog</a>
+							<a class="nav-link" target="_blank" rel="noopener noreferrer" href="https://medium.com/@eric.born85">Blog</a>
 						</li>
 						<li class="nav-item">
 				  			<a class="nav-link" href="/contact">Contact</a>
@@ -60,7 +63,7 @@
 	  	</nav>
 
 		<div class="container">
-			<h1 class="my-4">Greg Surma
+			<h1 class="my-4">Eric Born
 				<small>Portfolio</small>
 			</h1>
 
@@ -72,10 +75,8 @@
 				<center>
 					<a href="#" filter="*" class="current">All</a>
 					<a href="#" filter=".games">Games</a>
-					<a href="#" filter=".apps">Apps</a>
-					<a href="#" filter=".ai">Artificial Intelligence</a>
-					<a href="#" filter=".self_driving_cars">Self-Driving Cars</a>
-					<a href="#" filter=".cryptography">Cryptography</a>
+					<a href="#" filter=".analysis">Analysis</a>
+					<a href="#" filter=".ml">Machine Learning</a>
 					<a href="#" filter=".utilities">Utilities</a>
 				</center>
 			</div>
@@ -86,30 +87,30 @@
 
 			<div class="projectContainer row">
 
-				<div class="utilities ai col-lg-3 col-md-4 col-sm-6 portfolio-item">
+				<div class="utilities col-lg-3 col-md-4 col-sm-6 portfolio-item">
 					<div class="card h-100">
-						<a href="https://github.com/gsurma/deep_dream">
-							<img class="card-img-top" src="images/icons/deep_dream_icon_web.png" alt="Deep Dream">
+						<a href="https://github.com/ericborn/FileSort">
+							<img class="card-img-top" src="images/icons/deep_dream_icon_web.png" alt="File Sort">
 						</a>
 						<div class="card-body">
 							<h4 class="card-title">
 								<center>
-									<h4 class="card-title">Deep Dream</h4>
+									<h4 class="card-title">File Sort</h4>
 								</center>
 							</h4>
 							<center>
-								<p class="card-text">Deep Dream image generator</p>
+								<p class="card-text">Python file sorter</p>
 							</center>
 							<br>
 							<ul style="list-style-type:square">
 								<li>Python</li>
-								<li>Computer Vision</li>
+								<li>RPA</li>
 								<li>TensorFlow</li>
 							</ul>
 							<br>
 
 							<div class="link_button">
-								<a href="https://github.com/gsurma/deep_dream">
+								<a href="https://github.com/ericborn/FileSort">
 									<center>
 										<img class="img-fluid rounded mb-3 mb-md-0" src="images/icons/github.png" alt="GitHub" width="120" height="40">
 									</center>
@@ -119,30 +120,30 @@
 					</div>
 				</div>
 
-				<div class="utilities self_driving_cars ai col-lg-3 col-md-4 col-sm-6 portfolio-item">
+				<div class="utilities col-lg-3 col-md-4 col-sm-6 portfolio-item">
 					<div class="card h-100">
-						<a href="https://github.com/gsurma/mono_depth_estimator">
-							<img class="card-img-top" src="images/icons/mono_depth_estimator_icon_web.png" alt="Stereo Depth Estimator">
+						<a href="https://github.com/ericborn/tarkovWebscrape">
+							<img class="card-img-top" src="images/icons/mono_depth_estimator_icon_web.png" alt="Web Scraper">
 						</a>
 						<div class="card-body">
 							<h4 class="card-title">
 								<center>
-									<h4 class="card-title">Mono Depth Estimator</h4>
+									<h4 class="card-title">Web Scraper</h4>
 								</center>
 							</h4>
 							<center>
-								<p class="card-text">Depth prediction for self-driving cars 🚗</p>
+								<p class="card-text">Web Scraping and database insertion</p>
 							</center>
 							<br>
 							<ul style="list-style-type:square">
-								<li>Python Notebook</li>
-								<li>Computer Vision</li>
-								<li>Conditional GAN</li>
+								<li>Python</li>
+								<li>Web Scraping</li>
+								<li>PostgreSQL</li>
 							</ul>
 							<br>
 
 							<div class="link_button">
-								<a href="https://github.com/gsurma/mono_depth_estimator">
+								<a href="https://github.com/ericborn/tarkovWebscrape">
 									<center>
 										<img class="img-fluid rounded mb-3 mb-md-0" src="images/icons/github.png" alt="GitHub" width="120" height="40">
 									</center>
@@ -152,30 +153,30 @@
 					</div>
 				</div>
 
-				<div class="utilities self_driving_cars ai col-lg-3 col-md-4 col-sm-6 portfolio-item">
+				<div class="games ml col-lg-3 col-md-4 col-sm-6 portfolio-item">
 					<div class="card h-100">
-						<a href="https://github.com/gsurma/stereo_depth_estimator">
-							<img class="card-img-top" src="images/icons/stereo_depth_estimator_icon_web.png" alt="Stereo Depth Estimator">
+						<a href="https://github.com/ericborn/binarybot">
+							<img class="card-img-top" src="images/icons/stereo_depth_estimator_icon_web.png" alt="SC2 Bot">
 						</a>
 						<div class="card-body">
 							<h4 class="card-title">
 								<center>
-									<h4 class="card-title">Stereo Depth Estimator</h4>
+									<h4 class="card-title">SC2 Bot</h4>
 								</center>
 							</h4>
 							<center>
-								<p class="card-text">Depth prediction for self-driving cars 🚗</p>
+								<p class="card-text">Fully autonomous bot for StarCraft 2</p>
 							</center>
 							<br>
 							<ul style="list-style-type:square">
-								<li>Python/OpenCV</li>
-								<li>Computer Vision</li>
-								<li>SGBM</li>
+								<li>Python</li>
+								<li>Neural Net</li>
+								<li>SC2</li>
 							</ul>
 							<br>
 
 							<div class="link_button">
-								<a href="https://github.com/gsurma/stereo_depth_estimator">
+								<a href="https://github.com/ericborn/binarybot">
 									<center>
 										<img class="img-fluid rounded mb-3 mb-md-0" src="images/icons/github.png" alt="GitHub" width="120" height="40">
 									</center>
@@ -184,6 +185,8 @@
 						</div>
 					</div>
 				</div>
+
+				<!-- !!!!!!!!CONVERTED TO HERE!!!!!!!!! -->
 
 				<div class="utilities apps col-lg-3 col-md-4 col-sm-6 portfolio-item">
 					<div class="card h-100">
@@ -1768,6 +1771,7 @@
 
 		<div class="footer-bottom">
 			<p class="m-0 text-center text-white"><a>© </a><script>document.write(new Date().getFullYear())</script></p>
+			<a> template by </a> <a href="https://gsurma.github.io/">gsurma</a>
 		</div>
 	</body>
 </html>
